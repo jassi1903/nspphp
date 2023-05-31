@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    background-color: #333;
+    border-radius: 2px;
+    margin: -9px -8px;
+}
+.navbar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+.navbar li {
+float:right;
+
+}
+.navbar li a {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+margin: 6px;
+}
+.navbar li a:hover {
+background-color: red;
+}
+#webname ,.log h3{
+display: inline-block;
+color: white;
+margin: 19px 20px;
+}
+.home{
+background-image: url(img/blood\ \(4\).jpg);
+width: 100%;
+background-size:100% 100% ;
+height: 100vh;
+padding: 0px 0px;
+background-repeat: no-repeat;
+}
+.text-box {
+    width: 59%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Neuton", serif;
+    line-height: 60px;
+    margin: 0px 0px;
+}
+  
+  
+  .text-box h1 {
+    font-size: 49px;
+    font-family: "Neuton", serif;
+    letter-spacing: 9px;
+    display: inline-block;
+  }
+  
+  .text-box p {
+    margin: 10px 0 40px;
+    font-size: 26px;
+    color: black;
+  }
+  
+  .hero-btn {
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius:85px;
+    padding: -1px 23px;
+    font-size: 38px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    width: 36vh;
+    letter-spacing: 3px;
+    height: 10vh;
+    font-family: "Patrick Hand SC", cursive;
+  }
+  
+  .hero-btn:hover {
+    border: 1px solid #cd5c5c;
+    background: #42acf3;
+    transition: 1s;
+    font-weight: 300;
+  }
+  #login{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 42%;
+    background-color: #6a4aaa;
+  }
+  #loginimg{
+    height: 50%;
+    width: 41%;
+    margin: 76px 20px;
+  }
+  .box {
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    padding: 20px 42px;
+    display: inline-block;
+    margin: 71px 194px;
+    height: 75px;
+  }
